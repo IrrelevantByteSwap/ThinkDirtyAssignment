@@ -1,4 +1,8 @@
 # ThinkDirtyAssignment
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/113945857/192202038-5dbe86d0-1ea9-4530-82db-5243ce32dd5c.jpg" width="400" />
+  <img src="https://user-images.githubusercontent.com/113945857/192202058-0058e394-9da5-4674-bb22-93fa18788ea7.jpg" width="400" /> 
+</p>
 
 ## Build tools & versions used
 Xcode 14, iOS15
