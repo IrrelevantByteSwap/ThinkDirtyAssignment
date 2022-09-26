@@ -315,7 +315,7 @@
 				7D8766EA28E124CA0061AF3F /* Sources */,
 				7D8766EB28E124CA0061AF3F /* Frameworks */,
 				7D8766EC28E124CA0061AF3F /* Resources */,
-				7D87672228E1268C0061AF3F /* ShellScript */,
+				7D87672228E1268C0061AF3F /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -449,7 +449,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7D87672228E1268C0061AF3F /* ShellScript */ = {
+		7D87672228E1268C0061AF3F /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,6 +458,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftGen;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -665,7 +666,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThinkDirtyTestApp/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = Z9F4FKLA7A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThinkDirtyTestApp/Resources/Info.plist;
@@ -705,7 +706,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThinkDirtyTestApp/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = Z9F4FKLA7A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThinkDirtyTestApp/Resources/Info.plist;

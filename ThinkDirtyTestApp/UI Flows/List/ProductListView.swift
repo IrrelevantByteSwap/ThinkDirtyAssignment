@@ -20,15 +20,11 @@ struct ProductListView: View {
     }
     
     var body: some View {
-        VStack {
-            if listVM.state.showProgress {
-                SkeletonList()
-            } else if listVM.state.products.isEmpty {
-                Text("Product list is Empty")
-            } else {
-                listView
-            }
-        }.toolbar {
+        ZStack {
+            listView
+            overlayView
+        }
+        .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {
                     listVM.trigger(.fetchMalformed)
@@ -67,6 +63,21 @@ struct ProductListView: View {
 }
 
 private extension ProductListView {
+    
+    var overlayView: some View {
+        VStack {
+            HStack {
+                Spacer()
+                if listVM.state.showProgress {
+                    ProgressView()
+                        .progressViewStyle(.circular)
+                } else if listVM.state.products.isEmpty {
+                    Text("Product list is Empty")
+                }
+                Spacer()
+            }
+        }
+    }
     
     var listView: some View {
         List {

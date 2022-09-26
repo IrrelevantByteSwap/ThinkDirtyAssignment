@@ -25,8 +25,8 @@ struct ThinkDirtyTestApp: App {
         
         catchAllExceptions()
         
-        let cache = ImageCache.default
-        cache.memoryStorage.config.totalCostLimit = 1024 * 1024 * 100
+        let _ = ImageCache.default
+        //cache.memoryStorage.config.totalCostLimit = 1024 * 1024 * 100
     }
     
     var body: some Scene {
