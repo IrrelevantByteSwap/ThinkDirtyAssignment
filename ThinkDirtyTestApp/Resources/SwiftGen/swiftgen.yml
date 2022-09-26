@@ -1,0 +1,29 @@
+input_dir: ..
+output_dir: ../../Generated
+strings:
+    - inputs: en.lproj/Localizable.strings
+      outputs:
+        - templatePath: strings.stencil
+          output: strings.swift
+    - inputs: en.lproj
+      filter: ^((?!InfoPlist|Localizable).)+\.strings$
+      outputs:
+        - templatePath: strings.stencil
+          output: stringsExtra.swift
+          params:
+            enumName: L10nExtra
+            withoutSupporter:
+            
+xcassets:
+  inputs: .
+  filter: .+\.xcassets$
+  outputs:
+    - templatePath: xcassets-swiftui.stencil
+      output: Assets.swift
+
+fonts:
+    inputs:
+    - Fonts
+    outputs:
+    - templatePath: fonts.stencil
+      output: Fonts.swift

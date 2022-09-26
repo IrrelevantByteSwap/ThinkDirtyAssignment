@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		7D8766F228E124CA0061AF3F /* ThinkDirtyTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8766F128E124CA0061AF3F /* ThinkDirtyTestAppApp.swift */; };
-		7D8766F428E124CA0061AF3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8766F328E124CA0061AF3F /* ContentView.swift */; };
+		7D8766F428E124CA0061AF3F /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8766F328E124CA0061AF3F /* ProductListView.swift */; };
 		7D8766F628E124CB0061AF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8766F528E124CB0061AF3F /* Assets.xcassets */; };
 		7D8766FA28E124CB0061AF3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8766F928E124CB0061AF3F /* Preview Assets.xcassets */; };
 		7D87670428E124CB0061AF3F /* ThinkDirtyTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87670328E124CB0061AF3F /* ThinkDirtyTestAppTests.swift */; };
 		7D87670E28E124CB0061AF3F /* ThinkDirtyTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87670D28E124CB0061AF3F /* ThinkDirtyTestAppUITests.swift */; };
 		7D87671028E124CB0061AF3F /* ThinkDirtyTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87670F28E124CB0061AF3F /* ThinkDirtyTestAppUITestsLaunchTests.swift */; };
+		7D87671D28E1251B0061AF3F /* NetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87671C28E1251B0061AF3F /* NetworkAgent.swift */; };
+		7D87672828E126E80061AF3F /* strings.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 7D87672428E126E80061AF3F /* strings.stencil */; };
+		7D87672928E126E80061AF3F /* xcassets-swiftui.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 7D87672528E126E80061AF3F /* xcassets-swiftui.stencil */; };
+		7D87672A28E126E80061AF3F /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7D87672628E126E80061AF3F /* swiftgen.yml */; };
+		7D87672B28E126E80061AF3F /* fonts.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 7D87672728E126E80061AF3F /* fonts.stencil */; };
+		7D87672E28E127060061AF3F /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87672D28E127060061AF3F /* Assets.swift */; };
+		7D87673228E127140061AF3F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87673128E127140061AF3F /* Strings.swift */; };
+		7D87673A28E128110061AF3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D87673C28E128110061AF3F /* Localizable.strings */; };
+		7D87673E28E1286F0061AF3F /* ResagokrBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D87673428E127760061AF3F /* ResagokrBold.otf */; };
+		7D87673F28E1286F0061AF3F /* Resagokr.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D87673628E127760061AF3F /* Resagokr.otf */; };
+		7D87674028E1286F0061AF3F /* ResagokrLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D87673528E127760061AF3F /* ResagokrLight.otf */; };
+		7D87674228E128C40061AF3F /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674128E128C40061AF3F /* Fonts.swift */; };
+		7D87674428E12D480061AF3F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674328E12D480061AF3F /* Reachability.swift */; };
+		7D87674628E12D650061AF3F /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674528E12D650061AF3F /* NetworkLogger.swift */; };
+		7D87674828E12E260061AF3F /* TDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674728E12E260061AF3F /* TDError.swift */; };
+		7D87674A28E12E760061AF3F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674928E12E760061AF3F /* ViewModel.swift */; };
+		7D87674C28E12E830061AF3F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674B28E12E830061AF3F /* AppState.swift */; };
+		7D87674F28E133450061AF3F /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87674E28E133450061AF3F /* RootCoordinator.swift */; };
+		7D87675228E1336F0061AF3F /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = 7D87675128E1336F0061AF3F /* Stinsen */; };
+		7D87675928E1347C0061AF3F /* ProductsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87675828E1347C0061AF3F /* ProductsVM.swift */; };
+		7D87675B28E134A20061AF3F /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87675A28E134A20061AF3F /* CancelBag.swift */; };
+		7D87676028E1359E0061AF3F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87675F28E1359E0061AF3F /* Product.swift */; };
+		7D87676228E138DF0061AF3F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87676128E138DF0061AF3F /* Utils.swift */; };
+		7D87676528E139FD0061AF3F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7D87676428E139FD0061AF3F /* Kingfisher */; };
+		7D87676728E13A220061AF3F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87676628E13A220061AF3F /* ProductCell.swift */; };
+		7D87676928E13A5B0061AF3F /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87676828E13A5B0061AF3F /* TestData.swift */; };
+		7D87676B28E1401A0061AF3F /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87676A28E1401A0061AF3F /* ProductsService.swift */; };
+		7D87677128E1519D0061AF3F /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87677028E1519D0061AF3F /* EmptyListView.swift */; };
+		7D87677328E1542F0061AF3F /* DebugBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87677228E1542F0061AF3F /* DebugBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +65,7 @@
 /* Begin PBXFileReference section */
 		7D8766EE28E124CA0061AF3F /* ThinkDirtyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkDirtyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8766F128E124CA0061AF3F /* ThinkDirtyTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkDirtyTestAppApp.swift; sourceTree = "<group>"; };
-		7D8766F328E124CA0061AF3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D8766F328E124CA0061AF3F /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		7D8766F528E124CB0061AF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8766F728E124CB0061AF3F /* ThinkDirtyTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThinkDirtyTestApp.entitlements; sourceTree = "<group>"; };
 		7D8766F928E124CB0061AF3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +74,35 @@
 		7D87670928E124CB0061AF3F /* ThinkDirtyTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkDirtyTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D87670D28E124CB0061AF3F /* ThinkDirtyTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkDirtyTestAppUITests.swift; sourceTree = "<group>"; };
 		7D87670F28E124CB0061AF3F /* ThinkDirtyTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkDirtyTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D87671C28E1251B0061AF3F /* NetworkAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAgent.swift; sourceTree = "<group>"; };
+		7D87672428E126E80061AF3F /* strings.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strings.stencil; sourceTree = "<group>"; };
+		7D87672528E126E80061AF3F /* xcassets-swiftui.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "xcassets-swiftui.stencil"; sourceTree = "<group>"; };
+		7D87672628E126E80061AF3F /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		7D87672728E126E80061AF3F /* fonts.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fonts.stencil; sourceTree = "<group>"; };
+		7D87672D28E127060061AF3F /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		7D87673128E127140061AF3F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		7D87673428E127760061AF3F /* ResagokrBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ResagokrBold.otf; sourceTree = "<group>"; };
+		7D87673528E127760061AF3F /* ResagokrLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ResagokrLight.otf; sourceTree = "<group>"; };
+		7D87673628E127760061AF3F /* Resagokr.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Resagokr.otf; sourceTree = "<group>"; };
+		7D87673728E127A00061AF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D87673B28E128110061AF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7D87673D28E128220061AF3F /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7D87674128E128C40061AF3F /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		7D87674328E12D480061AF3F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7D87674528E12D650061AF3F /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		7D87674728E12E260061AF3F /* TDError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDError.swift; sourceTree = "<group>"; };
+		7D87674928E12E760061AF3F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7D87674B28E12E830061AF3F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		7D87674E28E133450061AF3F /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		7D87675828E1347C0061AF3F /* ProductsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVM.swift; sourceTree = "<group>"; };
+		7D87675A28E134A20061AF3F /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		7D87675F28E1359E0061AF3F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7D87676128E138DF0061AF3F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7D87676628E13A220061AF3F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		7D87676828E13A5B0061AF3F /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		7D87676A28E1401A0061AF3F /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		7D87677028E1519D0061AF3F /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		7D87677228E1542F0061AF3F /* DebugBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D87676528E139FD0061AF3F /* Kingfisher in Frameworks */,
+				7D87675228E1336F0061AF3F /* Stinsen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +155,13 @@
 		7D8766F028E124CA0061AF3F /* ThinkDirtyTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				7D8766F128E124CA0061AF3F /* ThinkDirtyTestAppApp.swift */,
-				7D8766F328E124CA0061AF3F /* ContentView.swift */,
-				7D8766F528E124CB0061AF3F /* Assets.xcassets */,
-				7D8766F728E124CB0061AF3F /* ThinkDirtyTestApp.entitlements */,
-				7D8766F828E124CB0061AF3F /* Preview Content */,
+				7D87671F28E125480061AF3F /* Core */,
+				7D87675C28E135810061AF3F /* Models */,
+				7D87672128E125710061AF3F /* UI Flows */,
+				7D87672028E1254F0061AF3F /* Networking */,
+				7D87671E28E1253A0061AF3F /* Resources */,
+				7D87674D28E12F970061AF3F /* Extensions */,
+				7D87672C28E126F50061AF3F /* Generated */,
 			);
 			path = ThinkDirtyTestApp;
 			sourceTree = "<group>";
@@ -129,6 +191,120 @@
 			path = ThinkDirtyTestAppUITests;
 			sourceTree = "<group>";
 		};
+		7D87671E28E1253A0061AF3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D87673728E127A00061AF3F /* Info.plist */,
+				7D87673C28E128110061AF3F /* Localizable.strings */,
+				7D87673328E127500061AF3F /* Fonts */,
+				7D87672328E126E80061AF3F /* SwiftGen */,
+				7D8766F528E124CB0061AF3F /* Assets.xcassets */,
+				7D8766F728E124CB0061AF3F /* ThinkDirtyTestApp.entitlements */,
+				7D8766F828E124CB0061AF3F /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D87671F28E125480061AF3F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7D8766F128E124CA0061AF3F /* ThinkDirtyTestAppApp.swift */,
+				7D87674928E12E760061AF3F /* ViewModel.swift */,
+				7D87674B28E12E830061AF3F /* AppState.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7D87672028E1254F0061AF3F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7D87674328E12D480061AF3F /* Reachability.swift */,
+				7D87674728E12E260061AF3F /* TDError.swift */,
+				7D87671C28E1251B0061AF3F /* NetworkAgent.swift */,
+				7D87674528E12D650061AF3F /* NetworkLogger.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7D87672128E125710061AF3F /* UI Flows */ = {
+			isa = PBXGroup;
+			children = (
+				7D87674E28E133450061AF3F /* RootCoordinator.swift */,
+				7D87676F28E151940061AF3F /* ViewFragments */,
+				7D87675728E134700061AF3F /* List */,
+			);
+			path = "UI Flows";
+			sourceTree = "<group>";
+		};
+		7D87672328E126E80061AF3F /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				7D87672428E126E80061AF3F /* strings.stencil */,
+				7D87672528E126E80061AF3F /* xcassets-swiftui.stencil */,
+				7D87672628E126E80061AF3F /* swiftgen.yml */,
+				7D87672728E126E80061AF3F /* fonts.stencil */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		7D87672C28E126F50061AF3F /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7D87674128E128C40061AF3F /* Fonts.swift */,
+				7D87672D28E127060061AF3F /* Assets.swift */,
+				7D87673128E127140061AF3F /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7D87673328E127500061AF3F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7D87673628E127760061AF3F /* Resagokr.otf */,
+				7D87673428E127760061AF3F /* ResagokrBold.otf */,
+				7D87673528E127760061AF3F /* ResagokrLight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7D87674D28E12F970061AF3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D87675A28E134A20061AF3F /* CancelBag.swift */,
+				7D87676128E138DF0061AF3F /* Utils.swift */,
+				7D87677228E1542F0061AF3F /* DebugBorder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D87675728E134700061AF3F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7D8766F328E124CA0061AF3F /* ProductListView.swift */,
+				7D87676628E13A220061AF3F /* ProductCell.swift */,
+				7D87675828E1347C0061AF3F /* ProductsVM.swift */,
+				7D87676A28E1401A0061AF3F /* ProductsService.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		7D87675C28E135810061AF3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D87675F28E1359E0061AF3F /* Product.swift */,
+				7D87676828E13A5B0061AF3F /* TestData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D87676F28E151940061AF3F /* ViewFragments */ = {
+			isa = PBXGroup;
+			children = (
+				7D87677028E1519D0061AF3F /* EmptyListView.swift */,
+			);
+			path = ViewFragments;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,12 +315,17 @@
 				7D8766EA28E124CA0061AF3F /* Sources */,
 				7D8766EB28E124CA0061AF3F /* Frameworks */,
 				7D8766EC28E124CA0061AF3F /* Resources */,
+				7D87672228E1268C0061AF3F /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ThinkDirtyTestApp;
+			packageProductDependencies = (
+				7D87675128E1336F0061AF3F /* Stinsen */,
+				7D87676428E139FD0061AF3F /* Kingfisher */,
+			);
 			productName = ThinkDirtyTestApp;
 			productReference = 7D8766EE28E124CA0061AF3F /* ThinkDirtyTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,8 +396,13 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
 			);
 			mainGroup = 7D8766E528E124CA0061AF3F;
+			packageReferences = (
+				7D87675028E1336F0061AF3F /* XCRemoteSwiftPackageReference "stinsen" */,
+				7D87676328E139FD0061AF3F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7D8766EF28E124CA0061AF3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +420,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8766FA28E124CB0061AF3F /* Preview Assets.xcassets in Resources */,
+				7D87672A28E126E80061AF3F /* swiftgen.yml in Resources */,
 				7D8766F628E124CB0061AF3F /* Assets.xcassets in Resources */,
+				7D87673F28E1286F0061AF3F /* Resagokr.otf in Resources */,
+				7D87674028E1286F0061AF3F /* ResagokrLight.otf in Resources */,
+				7D87673A28E128110061AF3F /* Localizable.strings in Resources */,
+				7D87672B28E126E80061AF3F /* fonts.stencil in Resources */,
+				7D87672928E126E80061AF3F /* xcassets-swiftui.stencil in Resources */,
+				7D87673E28E1286F0061AF3F /* ResagokrBold.otf in Resources */,
+				7D87672828E126E80061AF3F /* strings.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +448,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D87672228E1268C0061AF3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Generated/Fonts.swift",
+				"$(DERIVED_FILE_DIR)/Generated/Assets.swift",
+				"$(DERIVED_FILE_DIR)/Generated/Strings.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin:/usr/local/bin\";\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  exit 0;\nfi\n\nif which swiftgen; then\n    swiftgen config run --config \"$SRCROOT/ThinkDirtyTestApp/Resources/SwiftGen/swiftgen.yml\"\nelse\n  echo \"You wanted me to do this test assignment, and I want you to install SwiftGen via homebrew from https://github.com/SwiftGen/SwiftGen cause its so based allright?\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D8766EA28E124CA0061AF3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D8766F428E124CA0061AF3F /* ContentView.swift in Sources */,
+				7D87675928E1347C0061AF3F /* ProductsVM.swift in Sources */,
+				7D87674A28E12E760061AF3F /* ViewModel.swift in Sources */,
+				7D87674628E12D650061AF3F /* NetworkLogger.swift in Sources */,
+				7D87674428E12D480061AF3F /* Reachability.swift in Sources */,
+				7D87677128E1519D0061AF3F /* EmptyListView.swift in Sources */,
+				7D87676028E1359E0061AF3F /* Product.swift in Sources */,
+				7D87677328E1542F0061AF3F /* DebugBorder.swift in Sources */,
+				7D87674228E128C40061AF3F /* Fonts.swift in Sources */,
+				7D87674F28E133450061AF3F /* RootCoordinator.swift in Sources */,
+				7D87676228E138DF0061AF3F /* Utils.swift in Sources */,
+				7D8766F428E124CA0061AF3F /* ProductListView.swift in Sources */,
+				7D87676928E13A5B0061AF3F /* TestData.swift in Sources */,
+				7D87676B28E1401A0061AF3F /* ProductsService.swift in Sources */,
+				7D87674828E12E260061AF3F /* TDError.swift in Sources */,
+				7D87674C28E12E830061AF3F /* AppState.swift in Sources */,
 				7D8766F228E124CA0061AF3F /* ThinkDirtyTestAppApp.swift in Sources */,
+				7D87676728E13A220061AF3F /* ProductCell.swift in Sources */,
+				7D87672E28E127060061AF3F /* Assets.swift in Sources */,
+				7D87673228E127140061AF3F /* Strings.swift in Sources */,
+				7D87675B28E134A20061AF3F /* CancelBag.swift in Sources */,
+				7D87671D28E1251B0061AF3F /* NetworkAgent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +532,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		7D87673C28E128110061AF3F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D87673B28E128110061AF3F /* en */,
+				7D87673D28E128220061AF3F /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7D87671128E124CB0061AF3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -411,12 +661,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ThinkDirtyTestApp/ThinkDirtyTestApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThinkDirtyTestApp/Resources/ThinkDirtyTestApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThinkDirtyTestApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ThinkDirtyTestApp/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9F4FKLA7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThinkDirtyTestApp/Resources/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -427,7 +679,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -435,7 +687,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.testbundle.id.ThinkDirtyTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,12 +701,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ThinkDirtyTestApp/ThinkDirtyTestApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThinkDirtyTestApp/Resources/ThinkDirtyTestApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThinkDirtyTestApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ThinkDirtyTestApp/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9F4FKLA7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThinkDirtyTestApp/Resources/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -463,7 +719,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -471,7 +727,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.testbundle.id.ThinkDirtyTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,6 +862,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D87675028E1336F0061AF3F /* XCRemoteSwiftPackageReference "stinsen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rundfunk47/stinsen";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7D87676328E139FD0061AF3F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D87675128E1336F0061AF3F /* Stinsen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D87675028E1336F0061AF3F /* XCRemoteSwiftPackageReference "stinsen" */;
+			productName = Stinsen;
+		};
+		7D87676428E139FD0061AF3F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D87676328E139FD0061AF3F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D8766E628E124CA0061AF3F /* Project object */;
 }
